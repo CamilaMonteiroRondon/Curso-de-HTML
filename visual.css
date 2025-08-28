@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@600&display=swap');
+*{
+    margin:0;
+    border:0;
+    padding:0;
+
+}
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color:#000000;
+    color:#ffffff;
+}
+.titulo-destaque {
+    font-size: 36px;
+    font-family:'Oswald', sans-serif;
+    color: #f9f9f9;
+}
+.subtitulo-destaque {
+    font-size: 34px;
+    font-family:'Oswald', sans-serif;
+    color: #ffffff;
+}
+.texto {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+.apresentacao {
+    margin: 10% 15% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 56px;
+    
+}
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+.link__primeiro {
+    background-color: #22d4fd;
+    width: 280px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+}
+.link__segundo {
+    background-color: #22d4fd;
+    width: 280px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+
+}
+.foto{
+  width: 490px;
+  height: 600px;
+}
